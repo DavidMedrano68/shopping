@@ -6,9 +6,7 @@ import "./index.css";
 import ShopProvider from "./reducer/reducer";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <ShopProvider>
-      <RouterProvider router={root} />
-    </ShopProvider>
-  </React.StrictMode>
+  <ShopProvider>
+    <RouterProvider router={root} />
+  </ShopProvider>
 );
